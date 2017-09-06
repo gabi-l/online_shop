@@ -7,11 +7,11 @@
 <body>
 
 <header>
-  <a href="index.html"><img src="assets/img/logo.svg"></a>
+  <a href="index.html"><img src="assets/img/logo.svg" alt="logo.svg"></a>
   <nav>
     <ul>
       <li><a href="index.html">Acceuil</a></li>
-      <li><a href="products.html">Produits</a></li>
+      <li><strong><a href="products.html">Produits</a></strong></li>
       <li><a href="contact.html">Contacts</a></li>
       <li><a href="shopping-cart.html">Panier</a></li>
     </ul>
@@ -19,12 +19,13 @@
 </header>
 
 <main>
+  <h1>Commandes</h1>
   <form action="confirmation.html">
     Contact<br>
     Prénom: <input type="text" id="first-name" required>
     Nom: <input type="text" id="last-name" required>
-    Adresse courriel: <input type="text" id="email")" required>
-    Numéro de téléphone: <input type="text" id="phone" required>
+    Adresse courriel: <input type="email" id="email" required>
+    Numéro de téléphone: <input type="tel" id="phone" required>
     <br>Paiement<br>
     Numéro de carte de crédit: <input type="text" id="credit-card" required>
     Date d’expiration de la carte: <input type="date" id="credit-card-expiry" required>
