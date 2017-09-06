@@ -5,6 +5,7 @@
   <title>OnlineShop - Commande</title>
 </head>
 <body>
+
 <header>
   <a href="index.html"><img src="assets/img/logo.svg"></a>
   <nav>
@@ -16,9 +17,23 @@
     </ul>
   </nav>
 </header>
+
+<form action="confirmation.html">
+  Contact<br>
+  Prénom: <input type="text" id="first-name" required>
+  Nom: <input type="text" id="last-name" required>
+  Adresse courriel: <input type="text" id="email")" required>
+  Numéro de téléphone: <input type="text" id="phone" required>
+  <br>Paiement<br>
+  Numéro de carte de crédit: <input type="text" id="credit-card" required>
+  Date d’expiration de la carte: <input type="date" id="credit-card-expiry" required>
+  <input type="submit" value="Payer">
+</form>
+
 <footer>
   <p>By: Gabriel Bilodeau-Périard</p>
   <p>Contact information: <a href="mailto:gbilodeauperiard@gmail.com">gbilodeauperiard@gmail.com</a>.</p>
 </footer>
+
 </body>
 </html>
